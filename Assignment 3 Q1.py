@@ -2,7 +2,7 @@
 """
 Created on Fri Nov  4 10:54:31 2022
 
-@author: LENOVO
+@author: SANJUSHA
 """
 
 import scipy as stats
@@ -28,5 +28,4 @@ if p_val<0.05:
     print("H0 is rejected, H1 is accepted")
 else:
     print("H1 is rejected, H0 is accepted")
-# Since H1 is rejected and H0 is accepted, we can conclude that there is
-# no significant difference in the diameter of the cutlet b/w 2 units
+# Since H1 is rejected and H0 is accepted, we can conclude that there is no significant difference in the diameter of the cutlet b/w 2 units
